@@ -1,0 +1,32 @@
+<h2>Enter Workout Info</h2>
+<div>
+<form id="form">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Squats">
+
+    <label for="weight">Weight</label>
+    <input type="number" id="weight" name="weight" placeholder="495">
+
+    <label for="weightUnit">Lbs(1) / Kgs(0)</label>
+    <input type="number" id="weightUnit" name="weightUnit" placeholder="1">
+
+    <label for="reps">Reps</label>
+    <input type="number" id="reps" name="reps" placeholder="16">
+
+    <label for="date">Date</label>
+    <input type="text" id="date" name="date" placeholder="2017-03-12">
+</form>
+<input id="submit" type="submit" value="Submit" onclick="submit()"/>
+</div>
+
+<br><h2>Completed Workouts</h2>
+<table id="table">
+    <tr>
+        <th>Name</th>
+        <th>Weight</th>
+        <th>Lbs(1) / Kgs(0)</th>
+        <th>Reps</th>
+        <th>Date</th>
+        <th>Action</th>
+    </tr>
+</table>
